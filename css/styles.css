@@ -356,3 +356,31 @@ img {
     margin-bottom: .5rem;
 }
 /* my experience section ends */
+/* counter section starts */
+.counter {
+    padding: 2.5rem 0;
+    background-image: linear-gradient(180deg, 
+    var(--secondary-clr) 50%, var(--white-clr) 50%);
+}
+.counter-box {
+    width: 100%;
+    max-width: 45rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    background: #fff;
+    border-radius: 1rem;
+    box-shadow: 0 0.5rem 1rem rgb(51 51 51 / 30%);
+}
+.count {
+    padding: 1.5rem 2.5rem;
+    text-align: center;
+}
+.number {
+    display: block;
+    font-size: 2rem;
+    color: var(--primary-clr);
+    margin-bottom: .25rem;
+}
+/* end section starts */
