@@ -170,3 +170,26 @@ img {
     }
 }
 /* header section ends */
+/* home section starts */
+.home {
+    padding: calc(5rem + 60px) 0 5rem;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(../img/pic-bg.png) center center no-repeat;
+    /* background-color: #eee; */
+    background-size: cover;
+    background-attachment: fixed;
+}
+.home h4 {
+    margin-bottom: .5rem;
+    font-size: 1.5rem;
+}
+.home h1 {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+.home h1 span {
+    color: var(--primary-clr);
+}
+/* home section end */
