@@ -195,7 +195,7 @@ img {
 /* home section end */
 /* about me section starts */
 .about-me {
-    padding: 5rem 0;
+    padding: 5rem 0 0;
 }
 .row {
     display: flex;
@@ -275,3 +275,31 @@ img {
     width: 75%;
 }
 /* about me section ends */
+/* my services section added */
+.my-services {
+    padding: 5rem 0 0;
+}
+.my-services .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    grid-gap: 2rem;
+}
+.service {
+    padding: 1.5rem 1.25rem;
+    background-color: #eee;
+    border-radius: .5rem;
+    text-align: center;
+}
+.service:hover {
+    background-color: var(--secondary-clr);
+}
+.service-icon {
+    font-size: 3rem;
+    color: var(--secondary-clr);
+    margin-bottom: 1rem;
+}
+.service:hover .service-icon,
+.service:hover .service-name {
+    color: var(--white-clr);
+}
+/* my services section ends */
