@@ -203,7 +203,7 @@ img {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    row-gap: 2rem;
+    gap: 2rem 0;
 }
 @media screen and (max-width: 768px) {
     .about-me .row {
@@ -277,7 +277,7 @@ img {
 /* about me section ends */
 /* my services section added */
 .my-services {
-    padding: 5rem 0 0;
+    padding: 5rem 0;
 }
 .my-services .grid {
     display: grid;
@@ -303,3 +303,56 @@ img {
     color: var(--white-clr);
 }
 /* my services section ends */
+/* my experience section starts */
+.my-experience {
+    padding: 5rem 0;
+    background-color: var(--secondary-clr);
+}
+.my-experience .heading {
+    color: var(--white-clr);
+}
+.my-experience .heading::after {
+    background-color: var(--white-clr);
+}
+.my-experience .row {
+    justify-content: space-around;
+    gap: 0;
+}
+@media screen and (max-width: 991px) {
+    .my-experience .row {
+        flex-direction: column;
+    }
+}
+.my-experience .col {
+    flex: 0 0 33.333333%;
+    padding: 0 15px;
+}
+.experience {
+    position: relative;
+    padding-left: 2rem;
+    padding-top: .5rem;
+    height: 15rem;
+    border-left: 1px solid #eee;
+}
+.experience::before {
+    content: '';
+    position: absolute;
+    top: 16px;
+    left: -10px;
+    width: 20px;
+    height: 20px;
+    background-color: #eee;
+    border-radius: 50%;
+}
+.experience-year {
+    display: block;
+    font-size: 1.5rem;
+    color: #eee;
+    margin-bottom: .5rem;
+}
+.experience-type {
+    font-size: 1.25rem;
+    color: gold;
+    margin-bottom: .5rem;
+}
+/* my experience section ends */
