@@ -18,7 +18,6 @@
     color: var(--white-clr);
 }
 body {
-    height: 10000px;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
@@ -503,3 +502,17 @@ img {
     resize: none;
 }
 /* contact section ends */
+/* footer section starts */
+.credit {
+    padding: 1.5rem 0;
+    border-top: 1px solid #ccc;
+}
+.credit p {
+    font-size: 18px;
+    color: var(--secondary-clr);
+    text-align: center;
+}
+.credit p span {
+    color: var(--primary-clr);
+}
+/* footer section ends */
