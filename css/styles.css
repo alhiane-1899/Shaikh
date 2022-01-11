@@ -176,8 +176,8 @@ img {
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background: url(../img/pic-bg.png) center center no-repeat;
-    /* background-color: #eee; */
+    /* background: url(../img/pic-bg.png) center center no-repeat; */
+    background-color: #eee;
     background-size: cover;
     background-attachment: fixed;
 }
@@ -193,3 +193,85 @@ img {
     color: var(--primary-clr);
 }
 /* home section end */
+/* about me section starts */
+.about-me {
+    padding: 5rem 0;
+}
+.row {
+    display: flex;
+    margin: 0 -15px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    row-gap: 2rem;
+}
+@media screen and (max-width: 768px) {
+    .about-me .row {
+        flex-direction: column;
+    }
+}
+.about-img {
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+    padding: 0 15px;
+}
+@media screen and (max-width: 768px) {
+    .about-img {
+        max-width: 100%;
+    }
+}
+.about-text {
+    flex: 0 0 66.666667%;
+    max-width: 66.666667%;
+    padding: 0 15px;
+}
+@media screen and (max-width: 768px) {
+    .about-text {
+        max-width: 100%;
+    }
+}
+.about-name {
+    font-size: 1.75rem;
+    color: var(--primary-clr);
+    margin-bottom: .25rem;
+} 
+.about-desc {
+    color: var(--secondary-clr);
+    margin-bottom: 2rem;
+}
+.about-my-skills {
+    font-size: 1.5rem;
+    color: var(--primary-clr);
+    margin-bottom: 1rem;
+}
+.skill:not(:last-child) {
+    margin-bottom: 1.5rem;
+}
+.skill-info {
+    margin-bottom: .5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.skill-progress {
+    height: 5px;
+    background-color: #eee;
+}
+.progress-bar {
+    display: block;
+    height: 100%;
+    background-color: var(--primary-clr);
+}
+.per-95 {
+    width: 95%;
+}
+.per-85 {
+    width: 85%;
+}
+.per-65 {
+    width: 65%;
+}
+.per-75 {
+    width: 75%;
+}
+/* about me section ends */
